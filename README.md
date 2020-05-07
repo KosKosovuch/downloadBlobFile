@@ -26,5 +26,5 @@ Vue.http.interceptors.push((request, next) => {
 ### Example:
 ```
 fetchPromise
-  .then((data) => downloadBlobFile(data, 'onepager', 'pdf'))
+  .then((data) => downloadBlobFile(data, 'fileName', 'pdf'))
 ```
